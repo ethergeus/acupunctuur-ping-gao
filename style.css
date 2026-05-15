@@ -130,6 +130,11 @@ position:relative;
 z-index:-2;
 }
 
+.hero-small{
+height:50vh;
+background-image: url(img/vlinder.webp);
+}
+
 .hero h1{
 font-size:64px;
 }
