@@ -283,7 +283,7 @@ padding:20px;
 /* ORGANIZATIONS */
 .organizations{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px, 20%));
+grid-template-columns:repeat(auto-fit,minmax(200px,20%));
 gap:20px;
 }
 
@@ -297,34 +297,6 @@ border:1px solid #ddd;
 }
 
 /* CONTACT */
-.contact{
-background:#b9d9eb;
-color:#fff;
-text-align:center;
-}
-
-form{
-background:#fff;
-max-width:600px;
-margin:40px auto 0;
-padding:30px;
-}
-
-input,textarea{
-width:100%;
-padding:12px;
-margin-bottom:15px;
-border:1px solid #ccc;
-}
-
-button{
-padding:12px 25px;
-border:none;
-background:#222;
-color:#fff;
-cursor:pointer;
-}
-
 .contact-section {
 padding: 80px 40px;
 background: #f3f3f3;
@@ -385,6 +357,13 @@ max-width: 400px;
 .contact-info {
 grid-template-columns: 1fr;
 }
+}
+
+/* MAP */
+.map{
+background:#b9d9eb;
+color:#fff;
+text-align:center;
 }
 
 /* FOOTER */
